@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Progate</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- Unduh Font Awesome dibawah -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- Ketik code Anda dibawah -->
+    <!--Header section-->
+   <header>
+       <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+        </div>
+        <div class=header-right>
+          <a href="#login" class="login">Log in</a>
+        </div>
+      </div>
+   </header>
+   <!--Jumbotron section-->
+   <div class="top-content">
+      <div class="container">
+        <h1>BELAJAR CODING.</h1>
+        <h1>BELAJAR MENJADI LEBIH KREATIF.</h1>
+        <p>Progate adalah platform online untuk belajar pemrograman.</p>
+        <p>Kami menawarkan lingkungan pemrograman yang lengkap untuk mempermudah Anda memulai.</p>
+        
+        <div class="btn-content">
+          <a href="#email" class="btn email">Daftar deangan Email</a>
+          <p>atau</p>
+          <a href="#facebook" class="btn facebook">Daftar deangan Facebook</a>
+          <a href="#email" class="btn twitter">Daftar deangan Twitter</a>
+        </div>
+      </div>
+    </div>
+    <!--Element section-->
+    <div class="course-content">
+      <div class="container">
+        <div class="heading">
+          <h2> Cari tau dari mana anda mau memulai!</h2>
+        </div>
+        <div class="courses">
+          <div class="course">
+            <div class="course-icon">
+              <img src="https://prog-8.com/images/html/advanced/html.png">
+              <p>HTML & CSS</p>
+            </div>
+            <div class="course-text">
+              <p>Dua bahasa yang digunakan untuk membangun struktur dan design tambilan website anda.</p>
+            </div>
+          </div>
+           <div class="course">
+            <div class="course-icon">
+              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+              <p>jQuery</p>
+            </div>
+            <div class="course-text">
+              <p>JavaScript Library yang cepat, kaya akan fitur dan mudah digunakan untuk menangani animasi dan permintaan Ajax.</p>
+            </div>
+          </div>
+           <div class="course">
+            <div class="course-icon">
+              <img src="https://prog-8.com/images/html/advanced/ruby.png">
+              <p>Ruby</p>
+            </div>
+            <div class="course-text">
+              <p>Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
+            </div>
+          </div>
+           <div class="course">
+            <div class="course-icon">
+              <img src="https://prog-8.com/images/html/advanced/php.png">
+              <p>PHP</p>
+            </div>
+            <div class="course-text">
+              <p>Bahasa scripting "open-source" yang dapat disematkan ke dalam HTML, dan cocok untuk pengembangan web.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Message content-->
+    <div class="message-content">
+      <div class="container">
+        <div class="heading">
+          <h2>Apakah anda siap untuk menjadi programer yang handal?</h2>
+          <h3>Ayo belajar coding, ayo belajar menjadi lebih kreatif!</h3>
+        </div>
+        <span class="btn message">Mulai belajar</span>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer>
+      <div class="container">
+        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
+        <p>Learn to code, learn to be creative</p>
+      </div>
+    </footer>
+    <script>
+      if(typeof $ !== "undefined"){
+       $(document).on("click", "a", function(e){e.preventDefault()})}
+       else {
+       var a_list = document.getElementsByTagName("a");
+       for(var i=0;i<a_list.length;i++)
+       {a_list[i].onclick=function(e){e.preventDefault()}};}
+    </script>
+  </body>
+</html>
